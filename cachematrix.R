@@ -4,8 +4,12 @@
 ## repeatedly. Therefore, the below pair of functions cache the inverse of a
 ## matrix.
 
+## For this assignment, it is assumed that the matrix supplied is always
+## invertible.
 
-## This function creates a special "matrix" object that can cache its inverse.
+
+## Function 'makeCacheMatrix' creates a special "matrix" object that can cache
+## its inverse.
 ## Computing the inverse of a square matrix is done with the `solve` function
 ## in R. The cache is stored in 's'.
 
